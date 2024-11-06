@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale-1.0>
+    <title>A Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Photo Gallery</h1>
+    <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="all">Jordan 1</button>
+        <button data-filter="all">Jordan 3</button>
+        <button data-filter="all">Jordan 4</button>
+    </div>
+</header>
+
+<section class="gallery">
+    <div class="image jordan 1"><img src="c:\Users\snory\Downloads\1_352d7675-a8bd-4a03-adeb-95dfc5a7cecf_1200x1200.jpg" alt="Jordan 1 Image"></div>
+    <div class="image jordan 3"><img src="c:\Users\snory\Downloads\WOMENS_AIR_JORDAN_LUCKY-GREEN_CK9246-136_LEFT2.webp" alt="Jordan 3 Image"></div>
+    <div class="image jordan 4"><img src="c:\Users\snory\Downloads\jordan 4.avif" alt="Jordan 4 Image"></div>
+</section>
+
+<div id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" src="" alt="Enlarged Image">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
